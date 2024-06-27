@@ -1,0 +1,102 @@
+.consumer-detail {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(to right, rgba(89, 176, 71, 0.5), rgba(218, 218, 218, 1));
+
+    .left{
+        
+    .top{
+        
+        .image {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto;
+            object-fit: cover;
+    
+    
+            img {
+                width: 100%;
+            }
+        }
+    
+        .text1{
+            text-decoration: underline;
+        }
+    
+        .text2{
+            font-size: 1.5rem;
+        }
+    
+        }
+    
+        .middle{
+            // margin: 0 auto;
+            // text-align: center;
+            // padding: 2rem;
+    
+            .line1{
+                display: grid;
+                // margin: 0 15rem;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                // gap: 4rem;
+                text-align: justify;
+                
+            }
+    
+            .two{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+    
+            .three{
+                font-size: 1rem;
+                font-weight: 600;
+                color: rgb(121, 116, 116);
+                // color: red;
+            }
+        }
+    
+
+    }
+
+    .right{
+        padding: 3rem;
+
+        
+    .bottom{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        margin-right: 4rem;
+        // gap: 5rem;
+
+        .green{
+            margin-left: 5rem;
+            padding: 0.6rem 2.5rem;
+            border-radius: 0.3rem;
+            background-color: rgba(89, 176, 71, 1);
+            color: white;
+            border: none;
+            font-size: 0.9rem;
+        }
+        
+        .black{
+            margin-left: 9rem;
+            padding: 0.6rem 2.5rem;
+            border-radius: 0.3rem;
+            background-color: rgba(34, 31, 31, 1);
+            color: white;
+            border: none;
+            font-size: 0.9rem;
+            // gap: 5rem;
+        }
+    }
+
+    }
+
+}

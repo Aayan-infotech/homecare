@@ -1,0 +1,136 @@
+.digital1 {
+    background: linear-gradient(to right, rgba(89, 176, 71, 0.5), rgba(218, 218, 218, 1));
+    width: auto;
+    margin: auto;
+    padding: 3em;
+
+    .form-container1 {
+        padding: 2em;
+        margin: 0 auto;
+        max-width: 1000px;
+        background-color: #f9f9f9;
+        background: linear-gradient(to right, rgba(89, 176, 71, 0.5), rgba(218, 218, 218, 1));
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        p,
+        ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .content {
+        margin-bottom: 2em;
+    }
+
+    .patient-info {
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3em;
+            margin-left: 10em;
+
+            .grid-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    margin-bottom: 0.5em;
+                }
+
+                input {
+                    padding: 0.8em;
+                    border: 1px solid #ccc;
+                    border-radius: 2em;
+                    width: 15em;
+                }
+            }
+        }
+    }
+
+    .wr {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+
+        button {
+            padding: 0.9em;
+            border: none;
+            background-color: rgba(33, 121, 52, 0.815);
+            color: white;
+            border-radius: 2em;
+            cursor: pointer;
+            width: 8em;
+            font-size: 0.9em;
+            transition: background-color 0.9s;
+
+            &:hover {
+                background-color: #4a8a39;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .form-container1 {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p,
+    ul {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container1 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p,
+    ul {
+        font-size: 12px;
+    }
+
+
+}

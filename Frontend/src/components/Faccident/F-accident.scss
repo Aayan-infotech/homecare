@@ -1,0 +1,67 @@
+.accident{
+  width: auto;
+  height: auto;
+  padding: 2em;
+  background: linear-gradient(to right, rgba(89, 176, 71, 0.5), rgba(218, 218, 218, 1));
+  
+
+  .form-container {
+      max-width: 800px;
+      margin: auto auto;
+      padding: 20px;
+      border: 1px solid #cccccc;
+      border-radius: 1em;
+      background-color: #f9f9f9;
+      background: linear-gradient(to right, rgba(89, 176, 71, 0.5), rgba(218, 218, 218, 1));;
+      
+      
+  
+    
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+    
+    .form-group label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 90%;
+      max-width: 100%;
+    }
+    
+    .form-group textarea {
+      resize: vertical;
+    }
+
+    .button-accident{
+      display: flex;
+      justify-content: center;
+      button{
+          width: 8em;
+          padding: 0.6em;
+          border-radius: 1em;
+          font-size: 1em;
+          background-color: rgba(33, 121, 52, 0.815);
+          color: white;
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .form-group {
+        flex-direction: column;
+      }
+    
+      .form-group input[type="checkbox"] {
+        margin-right: 10px;
+      }
+    }
+  }
+}

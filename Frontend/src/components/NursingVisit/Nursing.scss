@@ -1,0 +1,55 @@
+// Variables
+$background-color: #f8f9fa;
+$text-color: #333;
+$border-color: #dee2e6;
+$table-header-bg: #e9ecef;
+
+body {
+  padding: 20px;
+  background-color: $background-color;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: $text-color;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.table {
+  margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid $border-color;
+    padding: 8px;
+  }
+
+  th {
+    background-color: $table-header-bg;
+    color: $text-color;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+@media (max-width: 576px) {
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.8em;
+    padding: 6px;
+  }
+}
